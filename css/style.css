@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.center{
+    margin: 0 auto;
+}

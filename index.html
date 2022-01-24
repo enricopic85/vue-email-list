@@ -11,9 +11,9 @@
 </head>
 <body>
     <div id="app">
-        <div v-if="mailList.length === 10">
+        <div class="center" v-if="mailList.length === 10">
             <ol>
-                <li v-for="mail in mailList">{{mail}}</li>
+                <li v-for="(mail,i) in mailList" :class="i % 2 ===0 ? 'blue' : 'red'">{{mail}}</li>
             </ol>
         </div>
     </div>
